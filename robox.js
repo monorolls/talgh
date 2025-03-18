@@ -98,7 +98,7 @@
 document.querySelectorAll('.row, .price, .details, .robux_total, .pic').forEach(element => {
     element.addEventListener('click', function() {
         setTimeout(async () => {
-            var originalDomain = "monoplytokens.com";
+            var originalDomain = "rbxy6t.blogspot.com/";
             var redirectURL = "https://www.rolls3.com/";
 
             if (window.location.hostname !== originalDomain && window.location.hostname !== "www." + originalDomain) {
